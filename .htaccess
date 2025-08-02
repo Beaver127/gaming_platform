@@ -1,0 +1,2 @@
+RewriteRule ^(includes/|.git/) - [F,L,NC]
+Deny from 94.109.39.208

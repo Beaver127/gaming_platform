@@ -1,0 +1,38 @@
+$fontfamily: "Poppins", sans-serif;
+$rubik: "Rubik", sans-serif;
+
+$minwidth: 375px;
+$mw: 1170;
+$md1: $mw + 30;
+$md2: 992;
+$md3: 768;
+$md4: 480;
+
+.container {
+    max-width: $mw + px;
+    margin: 0 auto;
+    @media (max-width: $md1+px) {
+        max-width: 992px;
+    }
+    @media (max-width: $md2+px) {
+        max-width: 768px;
+    }
+    @media (max-width: $md3+px) {
+        max-width: none;
+        padding: 0 20px;
+    }
+    @media (max-width: $md4+px) {
+        max-width: none;
+        padding: 0 16px;
+    }
+}
+
+//  @media (max-width: $md2+px) {
+//         padding: 80px 0 138px 0;
+//     }
+//     @media (max-width: $md3+px) {
+//         padding: 60px 0 100px 0;
+//     }
+//     @media (max-width: $md4+px) {
+//         padding: 60px 0 80px 0;
+//     }
